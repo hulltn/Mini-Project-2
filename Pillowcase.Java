@@ -15,9 +15,11 @@ public class Pillowcase{
   public ArrayList candyList(){
     numberOfCandy = 0;
   }
+  //Returns count of candy in bag. Numberic value only.
   public int getTotalCandy(){
     return numberOfCandy();
   }
+  //Randomly adds a candy to your pillowcase after each house visited. Also says Trick or Treat when activated
   public int getCandy(){
     system.out.println("Trick or Treat!");
     //This may have to go in the getTotalCandy method, again, not sure 
@@ -44,13 +46,14 @@ public class Pillowcase{
     if (randomNum > 93 && <= 100){
       system.out.println("Kit Kat");
     }
+    //Tells how much of each type of candy we received at each house.
     public int printNumCandies()
     {
-      String[] candy = {"M&M's", "Pink Starburst", "Hershey's Bar", "Milky Way", "Twix", "Reese's", "Kit Kat"};
+      String[] candyList = {"M&M's", "Pink Starburst", "Hershey's Bar", "Milky Way", "Twix", "Reese's", "Kit Kat"};
 
     }
 
 
-    return candyList();
+    
   }
 }
