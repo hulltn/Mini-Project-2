@@ -46,7 +46,7 @@ public class Pillowcase{
     if (randomNum > 93 && <= 100){
       system.out.println("Kit Kat");
     }
-    //Tells how much of each type of candy we received at each house.
+    //Tells how much of each type of candy we received at each house. Adds 1 to nunber of candy each time it loops through
     public int printNumCandies()
     {
       String[] candyList = {"M&M's", "Pink Starburst", "Hershey's Bar", "Milky Way", "Twix", "Reese's", "Kit Kat"};
